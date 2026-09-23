@@ -9,5 +9,5 @@ Sub MachineProductivity()
     AmountDishes = AmountDishes * T6
     AmountMachine = 3
     AmountDishes = AmountDishes * AmountMachine
-    MsgBox "Кол-во тарелок тремя машинами за 6 часов: " & AmountDishes
+    MsgBox "РљРѕР»-РІРѕ С‚Р°СЂРµР»РѕРє С‚СЂРµРјСЏ РјР°С€РёРЅР°РјРё Р·Р° 6 С‡Р°СЃРѕРІ: " & AmountDishes
 End Sub

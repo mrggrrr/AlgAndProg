@@ -4,8 +4,8 @@ Option Explicit
 Sub CondSwap()
 Dim a As Integer, b As Integer, c As Integer
 
-    a = InputBox("Ââåäèòå A")
-    b = InputBox("Ââåäèòå B")
+    a = InputBox("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ A")
+    b = InputBox("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ B")
     
     If a > b Then
         c = a

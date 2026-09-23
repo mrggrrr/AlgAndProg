@@ -10,5 +10,5 @@ Sub YarnCal()
     Yarn = Yarn * Amount
     Waste = Waste * Amount
     Losses = Losses * Amount
-    MsgBox "Количество Пряжи: " & Yarn & "     Отходов: " & Waste & "     Потерь: " & Losses
+    MsgBox "РљРѕР»РёС‡РµСЃС‚РІРѕ РџСЂСЏР¶Рё: " & Yarn & "     РћС‚С…РѕРґРѕРІ: " & Waste & "     РџРѕС‚РµСЂСЊ: " & Losses
 End Sub

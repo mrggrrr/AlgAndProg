@@ -5,9 +5,9 @@ Sub Max()
 Randomize
 Dim a1 As Integer, a2 As Integer, a3 As Integer, a4 As Integer, a5 As Integer, Max As Integer
 
-    a1 = InputBox("Введите a1 = ")
-    a2 = InputBox("Введите a2 = ")
-    a3 = InputBox("Введите a3 = ")
+    a1 = InputBox("Р’РІРµРґРёС‚Рµ a1 = ")
+    a2 = InputBox("Р’РІРµРґРёС‚Рµ a2 = ")
+    a3 = InputBox("Р’РІРµРґРёС‚Рµ a3 = ")
     
     If a1 > a2 And a1 > a3 Then
     Max = a1
@@ -16,10 +16,10 @@ Dim a1 As Integer, a2 As Integer, a3 As Integer, a4 As Integer, a5 As Integer, M
     Else
     Max = a3
     End If
-    MsgBox "Введеные значения a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & Chr(10) & "Максимум из 3 чисел = " & Max
+    MsgBox "Р’РІРµРґРµРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & Chr(10) & "РњР°РєСЃРёРјСѓРј РёР· 3 С‡РёСЃРµР» = " & Max
     
     a4 = Int(100 * Rnd + 1)
-    MsgBox "+ 1 РАНДОМНОЕ число" & Chr(10) & "a4 = " & a4
+    MsgBox "+ 1 Р РђРќР”РћРњРќРћР• С‡РёСЃР»Рѕ" & Chr(10) & "a4 = " & a4
     
     If a1 > a2 And a1 > a3 And a1 > a4 Then
     Max = a1
@@ -30,10 +30,10 @@ Dim a1 As Integer, a2 As Integer, a3 As Integer, a4 As Integer, a5 As Integer, M
     Else
     Max = a4
     End If
-    MsgBox "Введеные значения a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & " a4 = " & a4 & Chr(10) & "Максимум из 4 чисел = " & Max
+    MsgBox "Р’РІРµРґРµРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & " a4 = " & a4 & Chr(10) & "РњР°РєСЃРёРјСѓРј РёР· 4 С‡РёСЃРµР» = " & Max
     
     a5 = Int(100 * Rnd + 1)
-    MsgBox "+ 1 РАНДОМНОЕ число" & Chr(10) & "a5 = " & a5
+    MsgBox "+ 1 Р РђРќР”РћРњРќРћР• С‡РёСЃР»Рѕ" & Chr(10) & "a5 = " & a5
     
     If a1 > a2 And a1 > a3 And a1 > a4 And a1 > a5 Then
     Max = a1
@@ -46,5 +46,5 @@ Dim a1 As Integer, a2 As Integer, a3 As Integer, a4 As Integer, a5 As Integer, M
     Else
     Max = a5
     End If
-    MsgBox "Введеные значения a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & " a4 = " & a4 & " a5 = " & a5 & Chr(10) & "Максимум из 5 чисел = " & Max
+    MsgBox "Р’РІРµРґРµРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ a1 = " & a1 & " a2 = " & a2 & " a3 = " & a3 & " a4 = " & a4 & " a5 = " & a5 & Chr(10) & "РњР°РєСЃРёРјСѓРј РёР· 5 С‡РёСЃРµР» = " & Max
 End Sub

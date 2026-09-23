@@ -12,6 +12,6 @@ Sub Circles()
     SCircles = p * R ^ 2
     SRectangle = L * W
     SWaste = SRectangle - (AmountCircles * SCircles)
-    MsgBox "Площадь отходов: " & SWaste & "     Кол-во заготовок: " & AmountCircles
+    MsgBox "РџР»РѕС‰Р°РґСЊ РѕС‚С…РѕРґРѕРІ: " & SWaste & "     РљРѕР»-РІРѕ Р·Р°РіРѕС‚РѕРІРѕРє: " & AmountCircles
 End Sub
 

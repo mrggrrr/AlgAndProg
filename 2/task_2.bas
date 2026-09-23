@@ -4,17 +4,17 @@ Option Explicit
 Sub Mean()
 Dim a As Integer, b As Integer, c As Integer, d As Integer, Mean
 
-    a = InputBox("Введите A")
-    b = InputBox("Введите B")
-    c = InputBox("Введите C")
-    d = InputBox("Введите D")
+    a = InputBox("Р’РІРµРґРёС‚Рµ A")
+    b = InputBox("Р’РІРµРґРёС‚Рµ B")
+    c = InputBox("Р’РІРµРґРёС‚Рµ C")
+    d = InputBox("Р’РІРµРґРёС‚Рµ D")
     
     If a * b > c * d Then
         Mean = (a + b + c + d) / 4
-        MsgBox "Среднее арифмитическое " & Mean
+        MsgBox "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРёС‚РёС‡РµСЃРєРѕРµ " & Mean
     Else
         Mean = (a * b * c * d) ^ (1 / 4)
-        MsgBox "Среднее геометрическое " & Mean
+        MsgBox "РЎСЂРµРґРЅРµРµ РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРѕРµ " & Mean
     End If
 
 End Sub

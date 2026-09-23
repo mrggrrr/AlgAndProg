@@ -5,7 +5,7 @@ Option Explicit
 
 Function Eq1(x As Double) As Double
     If (x < 0 Or x > 1) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq1 = 0
         Exit Function
     End If
@@ -23,7 +23,7 @@ End Function
 
 Function Eq2(x As Double) As Double
     If (x < -2 Or x > 2) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq2 = 0
         Exit Function
     End If
@@ -43,7 +43,7 @@ End Function
 
 Function Eq3(x As Double) As Double
     If (x < -2 Or x > 2) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq3 = 0
         Exit Function
     End If
@@ -63,7 +63,7 @@ End Function
 
 Function Eq4(x As Double) As Double
     If (x < -2 Or x > 2) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq4 = 0
         Exit Function
     End If
@@ -83,14 +83,14 @@ End Function
 
 Function Eq5(x As Double) As Double
     If (x < -1.7 Or x > 1.5) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq5 = 0
         Exit Function
     End If
     
-    ' При x = -1 знаменатель равен нулю
+    ' РџСЂРё x = -1 Р·РЅР°РјРµРЅР°С‚РµР»СЊ СЂР°РІРµРЅ РЅСѓР»СЋ
     If x = -1 Then
-        MsgBox "Функция не определена при X = -1"
+        MsgBox "Р¤СѓРЅРєС†РёСЏ РЅРµ РѕРїСЂРµРґРµР»РµРЅР° РїСЂРё X = -1"
         Eq5 = 0
         Exit Function
     End If
@@ -110,7 +110,7 @@ End Function
 
 Function Eq6(x As Double) As Double
     If (x < -1.5 Or x > 1.8) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq6 = 0
         Exit Function
     End If
@@ -130,7 +130,7 @@ End Function
 
 Function Eq7(x As Double) As Double
     If (x < -1.4 Or x > 1.9) Then
-        MsgBox "X не входит в множество определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅРѕР¶РµСЃС‚РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq7 = 0
         Exit Function
     End If
@@ -150,7 +150,7 @@ End Function
 
 Function Eq8(x As Double) As Double
     If (x < 0 Or x > 1) Then
-        MsgBox "X не входит в мн-во определения функции"
+        MsgBox "X РЅРµ РІС…РѕРґРёС‚ РІ РјРЅ-РІРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ С„СѓРЅРєС†РёРё"
         Eq8 = 0
         Exit Function
     End If
@@ -172,29 +172,29 @@ Sub EqSolve()
 
 Dim x As Double, choice As Integer
 
-    choice = InputBox("Выберите уравнение")
-    x = InputBox("Введите число x =")
+    choice = InputBox("Р’С‹Р±РµСЂРёС‚Рµ СѓСЂР°РІРЅРµРЅРёРµ")
+    x = InputBox("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ x =")
 
     Select Case choice
     Case 1
-        MsgBox "Решение " & Eq1(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq1(x)
     Case 2
-        MsgBox "Решение " & Eq2(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq2(x)
     Case 3
-        MsgBox "Решение " & Eq3(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq3(x)
     Case 4
-        MsgBox "Решение " & Eq4(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq4(x)
     Case 5
-        MsgBox "Решение " & Eq5(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq5(x)
     Case 6
-        MsgBox "Решение " & Eq6(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq6(x)
     Case 7
-        MsgBox "Решение " & Eq7(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq7(x)
     Case 8
-        MsgBox "Решение " & Eq8(x)
+        MsgBox "Р РµС€РµРЅРёРµ " & Eq8(x)
    
     Case Else
-        MsgBox "ОШИБКА :((("
+        MsgBox "РћРЁРР‘РљРђ :((("
 
 End Select
 

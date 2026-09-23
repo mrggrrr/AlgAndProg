@@ -4,10 +4,10 @@ Option Explicit
 Sub OpDetect()
 Dim phone, opcode
     
-    phone = InputBox("Введите номер")
+    phone = InputBox("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ")
     
     If Len(phone) < 10 Or Len(phone) > 10 Then
-        MsgBox "Неправильный номер"
+        MsgBox "РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ РЅРѕРјРµСЂ"
         Exit Sub
     End If
     
@@ -19,13 +19,13 @@ Dim phone, opcode
     Case "900"
         MsgBox "TELE2"
     Case "902" Or "926"
-        MsgBox "Мегафон"
+        MsgBox "РњРµРіР°С„РѕРЅ"
     Case "902"
-        MsgBox "Билайн"
+        MsgBox "Р‘РёР»Р°Р№РЅ"
     Case "999"
         MsgBox "Yota"
     Case Default
-        MsgBox "Низвестный оператора"
+        MsgBox "РќРёР·РІРµСЃС‚РЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂР°"
     End Select
     
 End Sub
